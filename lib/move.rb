@@ -12,7 +12,7 @@ def input_to_index(position)
 end
 
 def move(arr, idx, player = "X")
-  console.log(arr);
+  console.log(arr)
   arr[idx] = ""
   arr[idx] <<player
 end
