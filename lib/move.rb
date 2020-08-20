@@ -13,5 +13,4 @@ end
 
 def move(arr, idx, player = "X")
   arr[idx] = player
-  puts arr
 end
