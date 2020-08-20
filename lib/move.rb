@@ -13,5 +13,5 @@ end
 
 def move(arr, idx, player = "X")
   arr[idx] = player
-  return arr
+  puts arr
 end
