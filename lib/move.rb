@@ -12,6 +12,6 @@ def input_to_index(position)
 end
 
 def move(arr, idx, player = "X")
-  arr[idx] = ""
-  arr[idx] <<player
+  arr[idx] = player
+  return arr
 end
