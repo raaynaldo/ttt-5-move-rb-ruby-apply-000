@@ -13,5 +13,6 @@ end
 
 def move(arr, idx, player = "X")
   console.log(player);
+  arr[idx] = ""
   arr[idx] <<player
 end
