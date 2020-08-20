@@ -10,3 +10,7 @@ end
 def input_to_index(position)
   return position.to_i - 1
 end
+
+def move(arr, idx, player)
+  arr[idx] = player
+end
